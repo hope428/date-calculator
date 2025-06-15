@@ -30,6 +30,6 @@ const list = document.getElementById("dates-list")
 
 for(let i = 0; i < times.length; i++){
     const li = document.createElement("li")
-    li.textContent = `${nums[i]}: ${times[i].getDate()}/${times[i].getMonth() + 1}`
+    li.textContent = `${nums[i]}: ${times[i].getMonth() + 1}/${times[i].getDate()}`
     list.appendChild(li)
 }
